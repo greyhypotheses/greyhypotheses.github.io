@@ -1,27 +1,84 @@
----
-layout: base
----
-<div class="wrapper">
-    <header>
-        {% if site.logo %}
-        <div class="logo-container">
-            <img class="logo" src="images/gamma.png" alt="logo" style="width:25%">
-        </div>
-        {% endif %}
 
-        {% if site.author %}
-        <div class="author-container"><h1>{{ site.author }}</h1></div>
-        {% endif %}
+<!DOCTYPE html>
+<html lang="en">
 
-        {% if site.tagline %}
-        <div class="tagline-container"><p>{{ site.tagline }}</p></div>
-        {% endif %}
-    </header>
-    <main>
-        {% if site.include_content %}
-        <div class="content">
-            {% include content.html %}
-        </div>
-        {% endif %}
-    </main>
-</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/index.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+        <title>greyhypotheses.github.io</title>
+    </head>
+
+    <body>
+
+        <main>
+
+            <div class="grid-container">
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+
+                <div class="grid-item"></div>
+                <div class="gamma">
+                    <header>
+
+                        <div class="logo-container">
+                            <img src="images/gamma.png" alt="gamma" style="width: 35%">
+                        </div>
+
+                        <div class="author-container"><h1>greyhypotheses</h1></div>
+
+                        <div class="tagline-container"><p><a href='https://oll.libertyfund.org'>read</a>, think, analyse, synthesise</p></div>
+
+                    </header>
+                </div>
+                <div class="introduction">
+                    <p>in progress</p>
+
+                    <h1>greyhypotheses</h1>
+                    The pages of greyhypotheses.github.io outline ..
+
+                    <h2>Of Interest</h2>
+                    <ul>
+                        <li><a href="https://timharford.com/articles/cautionarytales/">Cautionary Tales</a></li>
+                        <li><a href="https://oll.libertyfund.org">Online Library of Liberty</a></li>
+                        <li><a href="https://www.theguardian.com/world/series/the-upside">The Upside</a></li>
+                        <li><a href="https://www.bloomberg.com/stephanomics">Stephanomics</a></li>
+                        <li><a href="https://www.thelastarchive.com">The Last Archive</a></li>
+                        <li><a href="https://weaponsofmathdestructionbook.com">Weapons of Math Destruction</a>, and its author's <a href="https://mathbabe.org">blog</a></li>
+                    </ul>
+                </div>
+                <div class="grid-item"></div>
+
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                    <ul class="fa-ul main-list">
+                        <li class="main-list-item">
+                            <span class="fa fa-github fa-lg main-list-item-icon"></span>
+                            <a href="https://github.com/greyhypotheses">GitHub Repositories</a>
+                        </li>
+                        <li class="main-list-item">
+                            <span class="fa fa-user fa-lg main-list-item-icon"></span>
+                            <a href="https://github.com/greyhypotheses/greyhypotheses">Greyhypotheses</a>
+                        </li>
+                    </ul>
+
+                    <p>Thanks to <a href="https://github.com/excentris/compass">Compass</a> for the website theme</p>
+                </div>
+                <div class="grid-item"></div>
+            </div>
+
+        </main>
+
+    </body>
+
+</html>
