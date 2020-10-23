@@ -1,6 +1,6 @@
 # configuration
-url: https://greyhypotheses.github.io
-baseurl: ''
+url: "https://greyhypotheses.github.io"
+baseurl: "/greyhypotheses.github.io"
 
 # and
 title: greyhypotheses
