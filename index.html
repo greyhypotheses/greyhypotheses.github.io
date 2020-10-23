@@ -1,30 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/css/index.css">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-        <title>greyhypotheses.github.io</title>
-    </head>
-    <body>
-        <main>
-            <div class="co"></div>
-            In progress
+---
+layout: base
+---
+<div class="wrapper">
+    <header>
+        {% if site.logo %}
+        <div class="logo-container">
+            <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.logo }}')"></a>
+        </div>
+        {% endif %}
 
-            <h1 align="center">greyhypotheses</h1>
-            The pages of greyhypotheses.github.io outline ..
+        {% if site.author %}
+        <div class="author-container"><h1>{{ site.author }}</h1></div>
+        {% endif %}
 
-            <h2>Of Interest</h2>
-            <ul>
-                <li><a href="https://timharford.com/articles/cautionarytales/">Cautionary Tales</a></li>
-                <li><a href="https://oll.libertyfund.org">Online Library of Liberty</a></li>
-                <li><a href="https://www.theguardian.com/world/series/the-upside">The Upside</a></li>
-                <li><a href="https://www.bloomberg.com/stephanomics">Stephanomics</a></li>
-                <li><a href="https://www.thelastarchive.com">The Last Archive</a></li>
-                <li><a href="https://weaponsofmathdestructionbook.com">Weapons of Math Destruction</a>, and its author's <a href="https://mathbabe.org">blog</a></li>
-            </ul>
-        </main>
-    </body>
-</html>
+        {% if site.tagline %}
+        <div class="tagline-container"><p>{{ site.tagline }}</p></div>
+        {% endif %}
+    </header>
+    <main>
+        {% if site.compass.include_content %}
+        <div class="content">
+            {% include content.html %}
+        </div>
+        {% endif %}
+    </main>
+</div>
