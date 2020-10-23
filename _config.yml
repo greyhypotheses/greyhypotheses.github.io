@@ -1,0 +1,46 @@
+# configuration
+url: https://greyhypotheses.github.io
+baseurl: ''
+
+# and
+title: greyhypotheses
+author: greyhypotheses
+description: hypotheses
+github_username: greyhypotheses
+
+logo: "/images/uncertainty.png"
+tagline: "<a href='https://oll.libertyfund.org'>read</a>, think, analyse, synthesise"
+
+
+# layouts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+
+# build settings; silently generates a sitemaps.org compliant sitemap for this Jekyll site
+paginate: 5
+paginate_path: "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+
+# dependencies
+markdown: kramdown
+mathjax: true
+highlighter: rouge
+
+
+# permalinks
+permalink: pretty
+
+
