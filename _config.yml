@@ -2,14 +2,18 @@
 url: "https://greyhypotheses.github.io"
 baseurl: "/greyhypotheses.github.io"
 
-# and
+
+# details
 title: greyhypotheses
 author: greyhypotheses
-description: hypotheses
 github_username: greyhypotheses
-
+description: hypotheses
 logo: "/images/uncertainty.png"
 tagline: "<a href='https://oll.libertyfund.org'>read</a>, think, analyse, synthesise"
+
+
+# if include_content is true, the contents of the content.html will be rendered
+include_content: true
 
 
 # layouts
