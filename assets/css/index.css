@@ -438,21 +438,26 @@ th {
     padding: 10px;
 }
 
-.grid-item {
-    border: 0 solid;
-    text-align: left;
-}
+
+
+.gamma, .grid-item, .delta, .loc, .introduction{
+     border: 0 solid;
+     text-align: left;
+ }
 
 .gamma{
-    border: 0 solid;
-    padding: 20px;
+    padding: 20px 50px 20px 20px;
     text-align: center;
 }
 
-.introduction{
-    border: 0 solid;
-    text-align: left;
+.delta{
+    padding: 20px;
 }
+
+.loc{
+    padding-right: 60px;
+}
+
 
 
 
