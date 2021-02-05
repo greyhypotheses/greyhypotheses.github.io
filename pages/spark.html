@@ -53,27 +53,27 @@
           </header>
         </div>
         <div class="introduction">
-          <h2>About</h2>
+          <h2>Apache Spark SQL & Apache Spark Dataset</h2>
+
           <p>Within Apache Spark engineers & scientists may query data
             <a href="http://spark.apache.org/docs/2.4.7/sql-getting-started.html#running-sql-queries-programmatically">programmatically via SQL</a>,
             <a href="https://databricks.com/glossary/what-are-datasets">via Dataset objects</a>, etc.  The tick links within the
-            <a href="#examples">table further below</a> lead to comparative examples of programmatic SQL & Dataset queries.  A valid question is,
-            why Dataset objects?  Amongst other
-            characteristics, Dataset objects are strongly typed and</p>
+            <a href="#examples">table further below</a> lead to comparative examples of programmatic SQL & Dataset queries.</p>
 
-          <p style="padding-left: 25px; margin-right: 25px; font-size: 90%; font-weight: lighter; color: #46433A">
-            &ldquo;... are "lazy", i.e. computations are only triggered when an action is invoked. Internally, a Dataset represents a
-              logical plan that describes the computation required to produce the data. When an action is invoked, Spark's query
-              optimizer optimizes the logical plan and generates a physical plan for efficient execution in a parallel and
-              distributed manner. &rdquo;<sup><a href="https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html">  Dataset</a></sup>
+          <p>
+            A valid question is, why Dataset objects?  Amongst other characteristics, Dataset objects are strongly typed and
+            <span style="color: #555555">&ldquo;... are "lazy", i.e. computations are only triggered when an action is invoked. Internally, a Dataset represents a
+            logical plan that describes the computation required to produce the data. When an action is invoked, Spark's query
+            optimizer optimizes the logical plan and generates a physical plan for efficient execution in a parallel and
+              distributed manner.&rdquo;</span>
+            <sup><a href="https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html">Dataset</a></sup>
 
-            <br/>
-            <br/>
-
-            Additionally study:
-            <a href="https://databricks.com/glossary/what-are-datasets">What are Datasets?</a>,
+              Additionally, the Databricks articles <a href="https://databricks.com/glossary/what-are-datasets">What are Datasets?</a> &
             <a href="https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-datasets.html">Introduction to Datasets</a>
+            are also good sources.
           </p>
+
+
           <br/>
           <br/>
         </div>
