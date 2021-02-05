@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<!--suppress JSUnresolvedLibraryURL -->
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/generic.css">
+    <link rel="stylesheet" href="../assets/css/tools/tooltips.css">
+
+
+    <link href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+    <script src="../assets/js/tools/latex.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+
+    <title>SQL & Dataset[Row]</title>
+
+  </head>
+
+  <body>
+
+    <main>
+
+      <div class="grid-container">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+
+
+        <div class="gamma">
+          <header>
+            <ul class="fa-ul main-list">
+              <li class="main-list-item">
+                <span class="fa fa-github fa-lg main-list-item-icon"></span>
+                <a href="https://github.com/briefings/firms" target="_blank">firms</a>,
+                <a href="https://github.com/briefings/stocks" target="_blank">stocks</a>, <br/>
+                <a href="https://github.com/briefings/buildings" target="_blank">buildings</a>,
+                <a href="https://github.com/briefings/bikeshare">bikeshare</a>
+              </li>
+              <li class="main-list-item">
+                <span class="fa fa-user fa-lg main-list-item-icon"></span>
+                <a href="https://greyhypotheses.github.io" target="_blank">greyhypotheses</a>
+              </li>
+            </ul>
+            <br/>
+            <br/>
+          </header>
+        </div>
+        <div class="introduction">
+          <h2>About</h2>
+          <p>Within Apache Spark engineers & scientists may query data
+            <a href="http://spark.apache.org/docs/2.4.7/sql-getting-started.html#running-sql-queries-programmatically">programmatically via SQL</a>,
+            <a href="https://databricks.com/glossary/what-are-datasets">via Dataset objects</a>, etc.  The tick links within the
+            <a href="#examples">table further below</a> lead to comparative examples of programmatic SQL & Dataset queries.  A valid question is,
+            why Dataset objects?  Amongst other
+            characteristics, Dataset objects are strongly typed and</p>
+
+          <p style="padding-left: 25px; margin-right: 25px; font-size: 90%; font-weight: lighter; color: #46433A">
+            &ldquo;... are "lazy", i.e. computations are only triggered when an action is invoked. Internally, a Dataset represents a
+              logical plan that describes the computation required to produce the data. When an action is invoked, Spark's query
+              optimizer optimizes the logical plan and generates a physical plan for efficient execution in a parallel and
+              distributed manner. &rdquo;<sup><a href="https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html">  Dataset</a></sup>
+
+            <br/>
+            <br/>
+
+            Additionally study:
+            <a href="https://databricks.com/glossary/what-are-datasets">What are Datasets?</a>,
+            <a href="https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-datasets.html">Introduction to Datasets</a>
+          </p>
+          <br/>
+          <br/>
+        </div>
+        <div class="grid-item"></div>
+
+
+        <div class="grid-item"></div>
+        <div class="grid-item">
+          <b>Performance</b>
+          <p>The programs herein include performance aiding aspects, e.g.,</p>
+          <ul>
+            <li>Reading data files via their schemata, e.g.,
+              <a href="https://github.com/briefings/firms/blob/develop/src/main/resources/schemata/crunchbase/schemaOfCompanies.json">schemaOfCompanies.json</a></li>
+            <li>Selectively, judiciously, <a href="https://spark.apache.org/docs/2.4.7/rdd-programming-guide.html#rdd-persistence">persisting in-memory</a>.</li>
+            <li>Using persisted temporary views; if a Dataset or DataFrame can be [feasibly] persisted, temporary views are created via such persisted objects.</li>
+          </ul>
+          <br/>
+          <br/>
+        </div>
+        <div class="grid-item"></div>
+
+        <div class="grid-item"></div>
+        <div class="grid-item">
+          <b>Upcoming examples</b>
+          <p>The examples will illustrate</p>
+          <ul>
+            <li><b>Combinatorial queries.</b> Via $cube()$</li>
+            <li><b>Joins.</b>  More join examples, e.g., right outer join, full outer join,  <span class="tooltip">left semi join
+              <span class="tooltiptext" style="font-size: small">filters the left table w.r.t. keys present in the right table</span></span>,
+              <span class="tooltip">left anti join <span class="tooltiptext" style="font-size: small">filters the left table for records
+                that are NOT present in the right table</span> </span></li>
+            <li><b>Pivoting.</b>  Pivoting via Dataset objects is explicit and elegant.  The
+              <a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/sources/DataReconfiguration.scala">DataReconfiguration</a>
+              class, which reconfigures the data used by the <a href="https://github.com/briefings/buildings">buildings project/module</a>,
+              uses the Dataset pivot function for a reconfiguration step.</li>
+          </ul>
+          <br/>
+          <br/>
+        </div>
+        <div class="grid-item"></div>
+
+
+        <div class="grid-item"></div>
+        <div class="grid-item">
+          <b id="examples">Examples</b>
+          <script src="../assets/js/pages/spark.js"></script>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+        </div>
+        <div class="grid-item"></div>
+
+
+        <div class="grid-item"></div>
+        <div class="grid-item">
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <p>Thanks to <a href="https://github.com/excentris/compass" target="_blank">Compass</a> for the website theme</p>
+        </div>
+        <div class="grid-item"></div>
+      </div>
+
+    </main>
+
+  </body>
+
+</html>
