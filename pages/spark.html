@@ -53,7 +53,17 @@
           </header>
         </div>
         <div class="introduction">
-          <h2>Apache Spark SQL & Apache Spark Dataset</h2>
+          <h2>Spark SQL & Spark Dataset</h2>
+
+          <br/>
+
+          <ul>
+            <li><a href="#examples">Table of Examples</a></li>
+            <li><a href="#performance">Performance Improving Aspects</a></li>
+            <li><a href="#upcoming">Upcoming Examples</a></li>
+          </ul>
+
+          <br/>
 
           <p>Within Apache Spark engineers & scientists may query data
             <a href="http://spark.apache.org/docs/2.4.7/sql-getting-started.html#running-sql-queries-programmatically">programmatically via SQL</a>,
@@ -62,15 +72,20 @@
 
           <p>
             A valid question is, why Dataset objects?  Amongst other characteristics, Dataset objects are strongly typed and
+          </p>
+
+          <p style="margin-left: 25px; margin-right: 25px; font-size: 95%">
             <span style="color: #555555">&ldquo;... are "lazy", i.e. computations are only triggered when an action is invoked. Internally, a Dataset represents a
             logical plan that describes the computation required to produce the data. When an action is invoked, Spark's query
-            optimizer optimizes the logical plan and generates a physical plan for efficient execution in a parallel and
-              distributed manner.&rdquo;</span>
-            <sup><a href="https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html">Dataset</a></sup>
+            optimizer optimizes the logical plan and generates a physical plan for efficient execution in a parallel and distributed manner.&rdquo;</span>
+            [<a href="https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html">Dataset</a>]
+          </p>
 
-              Additionally, the Databricks articles <a href="https://databricks.com/glossary/what-are-datasets">What are Datasets?</a> &
+          <p>
+            In addition to the Spark notes <a href="https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html">Dataset</a>, the
+            Databricks articles <a href="https://databricks.com/glossary/what-are-datasets">What are Datasets?</a> &
             <a href="https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-datasets.html">Introduction to Datasets</a>
-            are also good sources.
+            are also helpful references.
           </p>
 
 
@@ -82,7 +97,24 @@
 
         <div class="grid-item"></div>
         <div class="grid-item">
-          <b>Performance</b>
+          <b id="examples">Table of Examples</b>
+
+          <p>To view the Scala class wherein comparative examples are defined, click on the appropriate tick mark.  Alternatively, to study
+          the whole Scala package that hosts a set of examples, click on the appropriate column/field title.  Over time more
+            notes will be added.</p>
+
+          <script src="../assets/js/pages/spark.js"></script>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+        </div>
+        <div class="grid-item"></div>
+
+
+        <div class="grid-item"></div>
+        <div class="grid-item">
+          <b id="performance">Performance</b>
           <p>The programs herein include performance aiding aspects, e.g.,</p>
           <ul>
             <li>Reading data files via their schemata, e.g.,
@@ -90,14 +122,20 @@
             <li>Selectively, judiciously, <a href="https://spark.apache.org/docs/2.4.7/rdd-programming-guide.html#rdd-persistence">persisting in-memory</a>.</li>
             <li>Using persisted temporary views; if a Dataset or DataFrame can be [feasibly] persisted, temporary views are created via such persisted objects.</li>
           </ul>
+
+          Parallelism is implicit & explicit throughout; wherever applicable and effective.
+
+          <br/>
+          <br/>
           <br/>
           <br/>
         </div>
         <div class="grid-item"></div>
 
+
         <div class="grid-item"></div>
         <div class="grid-item">
-          <b>Upcoming examples</b>
+          <b id="upcoming">Upcoming examples</b>
           <p>The examples will illustrate</p>
           <ul>
             <li><b>Combinatorial queries.</b> Via $cube()$</li>
@@ -110,18 +148,6 @@
               class, which reconfigures the data used by the <a href="https://github.com/briefings/buildings">buildings project/module</a>,
               uses the Dataset pivot function for a reconfiguration step.</li>
           </ul>
-          <br/>
-          <br/>
-        </div>
-        <div class="grid-item"></div>
-
-
-        <div class="grid-item"></div>
-        <div class="grid-item">
-          <b id="examples">Examples</b>
-          <script src="../assets/js/pages/spark.js"></script>
-          <br/>
-          <br/>
           <br/>
           <br/>
         </div>
