@@ -11,7 +11,7 @@ document.write("<table id='example' class='display'>\n" +
     "        </tr>\n" +
     "        </thead>\n" +
     "        <tbody>\n" +
-    "        <tr style='height: 35px'>\n" +
+    "        <tr style='height: 5px'>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
@@ -19,7 +19,7 @@ document.write("<table id='example' class='display'>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
     "        </tr>\n" +
-    "        <tr>\n" +
+    "        <tr style='border-bottom: 1pt solid black'>\n" +
     "          <td>fundamentals</td>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
@@ -75,7 +75,7 @@ document.write("<table id='example' class='display'>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
     "        </tr>\n" +
-    "        <tr>\n" +
+    "        <tr style='border-bottom: 1pt solid black'>\n" +
     "          <td>basics</td>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
@@ -115,7 +115,7 @@ document.write("<table id='example' class='display'>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
     "        </tr>\n" +
-    "        <tr>\n" +
+    "        <tr style='border-bottom: 1pt solid black'>\n" +
     "          <td>joins</td>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
@@ -147,7 +147,7 @@ document.write("<table id='example' class='display'>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
     "        </tr>\n" +
-    "        <tr>\n" +
+    "        <tr style='border-bottom: 1pt solid black'>\n" +
     "          <td>via windows</td>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
@@ -179,7 +179,7 @@ document.write("<table id='example' class='display'>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
     "        </tr>\n" +
-    "        <tr>\n" +
+    "        <tr style='border-bottom: 1pt solid black'>\n" +
     "          <td>via grouping</td>\n" +
     "          <td></td>\n" +
     "          <td></td>\n" +
@@ -202,6 +202,14 @@ document.write("<table id='example' class='display'>\n" +
     "          <td></td>\n" +
     "          <td><a href='https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/HierarchicalArithmetic.scala'>$\\checkmark$</a></td>\n" +
     "          <td>rollup()</td>\n" +
+    "        </tr>\n" +
+    "        <tr style='height: 35px; border-bottom: 1pt solid black'>\n" +
+    "          <td></td>\n" +
+    "          <td></td>\n" +
+    "          <td></td>\n" +
+    "          <td></td>\n" +
+    "          <td></td>\n" +
+    "          <td></td>\n" +
     "        </tr>\n" +
     "        </tbody>\n" +
     "        <tfoot><tr><th colspan='6' style='text-align: left' class='footer'><br/>$^{1}$Dataset[Row] does not have a <b>having</b> function, instead there are effective " +
