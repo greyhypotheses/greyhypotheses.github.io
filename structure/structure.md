@@ -23,12 +23,11 @@ The repositories of greyhypotheses grouped into the themes, i.e., organisations,
 ## [briefings](https://github.com/briefings)
 
 Is focused on brief explorations, analysis, modelling, and features engineering.  Examples:
-<ul style="padding-top:-5px">
-  <li style="padding-top:-5px"><a href="https://briefings.github.io/docs/sars-cov-2-trends-and-metrics" target="\_blank">SARS-CoV-2</a>
+<ul style="padding-top:-5px;margin-top:0px">
+  <li style="padding-top:-5px;margin-top:0px"><a href="https://briefings.github.io/docs/sars-cov-2-trends-and-metrics" target="\_blank">SARS-CoV-2</a>
     <br>An investigation of measures, metrics.</li>
   <li><a href="https://briefings.github.io/docs/spark-dataset-and-spark-sql">Spark Dataset & Spark SQL</a><br>Parallel examples.</li>
 </ul>
-
 
 
 ## [plausibilities](https://github.com/plausibilities)
@@ -42,7 +41,6 @@ Is focused on Bayesian modelling explorations via <a href="https://docs.pymc.io"
     <br/>Forecasting amidst uncertainty in relation to SARS-CoV-2.</li>
 </ul>
 
-<br>
 
 ## [miscellane](https://github.com/miscellane)
 
@@ -54,7 +52,6 @@ A collection of programs that have been, are, repeatedly used for a variety of d
     Amazon S3 interactions, etc</li>
 </ul>
 
-<br>
 
 ## [discourses](https://github.com/discourses)
 
@@ -65,9 +62,10 @@ Focused on deep neural networks via TensorFlow, and supplementary processes.  Ex
   <li><a href="https://github.com/discourses/augmentation" target="\_blank">Image augmentation</a></li>
 </ul>
 
-<br/>
-
 
 ## [vetiveria](https://github.com/vetiveria)
 
 Modelling and analysis of toxic releases in the United States.  [Update upcoming.]
+
+<br>
+<br>
