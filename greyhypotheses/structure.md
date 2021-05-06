@@ -31,7 +31,7 @@ Is focused on brief explorations, analysis, modelling, and features engineering.
 <ul>
   <li><a href="https://briefings.github.io/briefings/sars" target="\_blank">SARS-CoV-2 Trends & Metrics</a>
     <br>An investigation of measures, metrics.</li>
-  <li><a href="https://briefings.github.io/briefings/spark-dataset-and-spark-sql">Spark Dataset & Spark SQL</a><br>Parallel examples.</li>
+  <li><a href="https://briefings.github.io/briefings/spark-dataset-and-spark-sql" target="\_blank">Spark Dataset & Spark SQL</a><br>Parallel examples.</li>
 </ul>
 
 <br>
