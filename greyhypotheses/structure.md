@@ -23,6 +23,8 @@ custom_css:
 
 The repositories of greyhypotheses aregrouped into the themes, i.e., organisations, outlined herein
 
+<br>
+
 ### [briefings](https://github.com/briefings)
 
 Is focused on brief explorations, analysis, modelling, and features engineering.  Examples:
