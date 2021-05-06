@@ -32,6 +32,7 @@ Is focused on brief explorations, analysis, modelling, and features engineering.
   <li><a href="https://briefings.github.io/docs/spark-dataset-and-spark-sql">Spark Dataset & Spark SQL</a><br>Parallel examples.</li>
 </ul>
 
+<br>
 
 ### [plausibilities](https://github.com/plausibilities)
 
@@ -44,6 +45,7 @@ Is focused on Bayesian modelling explorations via <a href="https://docs.pymc.io"
     <br/>Forecasting amidst uncertainty in relation to SARS-CoV-2.</li>
 </ul>
 
+<br>
 
 ### [miscellane](https://github.com/miscellane)
 
@@ -55,6 +57,7 @@ A collection of programs that have been, are, repeatedly used for a variety of d
     Amazon S3 interactions, etc</li>
 </ul>
 
+<br>
 
 ### [discourses](https://github.com/discourses)
 
@@ -65,6 +68,7 @@ Focused on deep neural networks via TensorFlow, and supplementary processes.  Ex
   <li><a href="https://github.com/discourses/augmentation" target="\_blank">Image augmentation</a></li>
 </ul>
 
+<br>
 
 ### [vetiveria](https://github.com/vetiveria)
 
