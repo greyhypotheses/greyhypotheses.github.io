@@ -1,0 +1,34 @@
+
+
+/* Lists
+   ========================================================================== */
+
+li {
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top: 2px;
+    padding-bottom:2px;
+}
+
+ul {
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top: 2px;
+    padding-bottom:2px;
+}
+
+dl {
+    display: block;
+    margin-left: 10px;
+}
+dt {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+dd {
+    display: block;
+    margin-left: 25px;
+    margin-top: 0;
+}
