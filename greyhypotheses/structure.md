@@ -29,9 +29,9 @@ The repositories of greyhypotheses aregrouped into the themes, i.e., organisatio
 
 Is focused on brief explorations, analysis, modelling, and features engineering.  Examples:
 <ul>
-  <li><a href="https://briefings.github.io/docs/sars-cov-2-trends-and-metrics" target="\_blank">SARS-CoV-2</a>
+  <li><a href="https://briefings.github.io/briefings/sars" target="\_blank">SARS-CoV-2 Trends & Metrics</a>
     <br>An investigation of measures, metrics.</li>
-  <li><a href="https://briefings.github.io/docs/spark-dataset-and-spark-sql">Spark Dataset & Spark SQL</a><br>Parallel examples.</li>
+  <li><a href="https://briefings.github.io/briefings/spark-dataset-and-spark-sql">Spark Dataset & Spark SQL</a><br>Parallel examples.</li>
 </ul>
 
 <br>
