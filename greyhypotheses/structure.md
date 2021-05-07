@@ -51,7 +51,7 @@ The repositories of greyhypotheses are grouped into themes, i.e., organisations.
 
   <tr>
     <td><a href="https://github.com/discourses" target="\_blank">discourses</a></td>
-    <td>Focused on deep neural networks via TensorFlow, e.g., <a href="https://github.com/discourses/derma" target="\_blank">classification of dermatoscopic images; and complementary processes, e.g., <a href="https://github.com/discourses/augmentation" target="\_blank">image augmentation</a>.</td>
+    <td>Focused on deep neural networks via TensorFlow, e.g., <a href="https://github.com/discourses/derma" target="\_blank">classification of dermatoscopic images</a>; and complementary processes, e.g., <a href="https://github.com/discourses/augmentation" target="\_blank">image augmentation</a>.</td>
   </tr>
 
   <tr>
