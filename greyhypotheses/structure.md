@@ -24,6 +24,9 @@ custom_js:
 The repositories of greyhypotheses are grouped into the themes, i.e., organisations.  A few theses are outlined here.
 
 
+
+<h2><a href="https://github.com/briefings" target="\_blank">briefings</a></h2>
+
 <table>
 
   <tr>
