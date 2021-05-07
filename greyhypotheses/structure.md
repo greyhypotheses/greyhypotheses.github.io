@@ -23,6 +23,8 @@ custom_js:
 
 The repositories of greyhypotheses are grouped into the themes, i.e., organisations.  A few theses are outlined here.  [Why]
 
+$\qquad \cdot$
+
 <br>
 
 group |comments
