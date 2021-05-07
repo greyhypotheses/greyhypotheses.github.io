@@ -24,8 +24,9 @@ The structure of
 
 The repositories of greyhypotheses are grouped into the themes, i.e., organisations.  A few theses are outlined here.
 
-
-
+{::options parse_block_html="true" /}<div>    
+### [briefings](https://github.com/briefings){:target="\_blank"}
+</div>
 
 <table>
 
@@ -34,9 +35,7 @@ The repositories of greyhypotheses are grouped into the themes, i.e., organisati
   </tr>
 
   <tr>
-    <td>{::options parse_block_html="true" /}<div>    
-    ### [briefings](https://github.com/briefings){:target="\_blank"}
-    </div></td>
+    <td><a href="https://github.com/briefings" target="\_blank">briefings</a></td>
     <td>Is focused on brief explorations, analysis, modelling, and features engineering.  Examples:
       <ul><li><a href="https://briefings.github.io/briefings/sars" target="\_blank">SARS-CoV-2 Trends & Metrics</a><br>An investigation of measures, metrics.</li>
           <li><a href="https://briefings.github.io/briefings/spark-dataset-and-spark-sql" target="\_blank">Spark Dataset & Spark SQL</a><br>Parallel examples.</li></ul>
