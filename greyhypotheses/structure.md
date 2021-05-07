@@ -14,19 +14,9 @@ custom_js:
 The structure of
 {: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ---
 
 The repositories of greyhypotheses are grouped into the themes, i.e., organisations.  A few theses are outlined here.
-
-{::options parse_block_html="true" /}<div>    
-### [briefings](https://github.com/briefings){:target="\_blank"}
-</div>
 
 <table>
 
