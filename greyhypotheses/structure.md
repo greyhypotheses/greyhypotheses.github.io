@@ -2,7 +2,7 @@
 layout: default
 title: Structure
 nav_order: 2
-permalink: /greyhypotheses/structure
+permalink: /greyhypotheses
 custom_css:
 - lists
 custom_js:
@@ -22,7 +22,7 @@ custom_js:
 
 ---
 
-The repositories of greyhypotheses are grouped into the themes, i.e., organisations.  A few theses are outlined here.
+The repositories of greyhypotheses are grouped into the themes, i.e., organisations.  A few theses are outlined here.  [Problems]
 
 <br>
 
