@@ -16,14 +16,10 @@ The groups
 
 <br>
 
-The repositories of greyhypotheses are grouped into themes, i.e., organisations.  A few theses are outlined here.
-
-<br>
-
 <table>
 
   <tr>
-      <th style="width:20%">group</th><th>comment</th>
+      <th style="width:20%;text-align: left;">group</th><th>comment</th>
   </tr>
 
   <tr>
