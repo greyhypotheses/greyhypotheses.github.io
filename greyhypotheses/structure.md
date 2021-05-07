@@ -19,7 +19,7 @@ The groups
 <table>
 
   <tr>
-      <th style="width:20%;text-align: left;">group</th><th>comment</th>
+      <th style="width:16%;text-align: left;">group</th><th style="text-align: left;">comment</th>
   </tr>
 
   <tr>
