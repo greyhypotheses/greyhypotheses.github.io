@@ -2,6 +2,7 @@
 layout: default
 title: Structure
 nav_order: 2
+permalink: /greyhypotheses/structure
 custom_css:
 - lists
 custom_js:
