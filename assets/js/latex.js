@@ -1,11 +1,15 @@
-
-/*
-    https://docs.mathjax.org/en/latest/options/input/tex.html#the-configuration-block
-    http://docs.mathjax.org/en/latest/web/start.html#configuring-mathjax
- */
-
-MathJax = {
-    tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-    }
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
 };
+
+(function () {
+  var script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js';
+  script.async = true;
+  document.head.appendChild(script);
+})();
