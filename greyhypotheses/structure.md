@@ -4,6 +4,8 @@ title: Structure
 nav_order: 2
 custom_css:
 - lists
+custom_js:
+- latex
 ---
 
 # Structure
