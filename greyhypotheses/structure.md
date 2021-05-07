@@ -9,12 +9,12 @@ custom_js:
 ---
 
 # Structure
-{: .no_toc }
+{: .fs-9 }
 
-The structure of
+The groups
 {: .fs-6 .fw-300 }
 
----
+<br>
 
 The repositories of greyhypotheses are grouped into the themes, i.e., organisations.  A few theses are outlined here.
 
