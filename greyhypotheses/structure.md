@@ -31,8 +31,7 @@ The repositories of greyhypotheses are grouped into the themes, i.e., organisati
   </tr>
 
   <tr>
-    <td><div>
-    {::options parse_block_html="true" /}
+    <td>{::options parse_block_html="true" /}<div>    
     ### [briefings](<a href="https://github.com/briefings){:target="\_blank"}
     </div></td>
     <td>Is focused on brief explorations, analysis, modelling, and features engineering.  Examples:
