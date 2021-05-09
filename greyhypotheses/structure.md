@@ -47,7 +47,7 @@ The groups
 
   <tr>
     <td><a href="https://github.com/discourses" target="\_blank">discourses</a></td>
-    <td>Focused on deep neural networks via TensorFlow, e.g., <a href="https://github.com/discourses/derma" target="\_blank">classification of dermatoscopic images</a>; and complementary processes, e.g., <a href="https://github.com/discourses/augmentation" target="\_blank">image augmentation</a>.</td>
+    <td>Focused on deep neural networks via TensorFlow, for example, <a href="https://github.com/discourses/derma" target="\_blank">classification of dermatoscopic images</a> (and focused on complementary processes, e.g., <a href="https://github.com/discourses/augmentation" target="\_blank">image augmentation</a>).</td>
   </tr>
 
   <tr>
