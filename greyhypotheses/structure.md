@@ -54,7 +54,7 @@ The groups
     <td><a href="https://github.com/miscellane" target="\_blank">miscellane</a></td>
     <td>A collection of programs that have been, are, repeatedly used for a variety of data projects.  Examples:
       <ul>
-      <li><a href="https://miscellane.github.io/tableau/" target="\_blank">Tableau Web Data Connectors</a></li>
+      <li><a href="https://miscellane.github.io/miscellane/tableau/tableau-web-data-connector.html#tableau-web-data-connector" target="\_blank">Tableau Web Data Connectors</a></li>
       <li><a href="https://github.com/miscellane/infrastructure" target="\_blank">Aiding</a> <b>interactions</b> with
         Hive, ScalikeJDBC & Databases (Azure SQL, Amazon Redshift), Apache Spark & Databases (Azure SQL, Amazon Redshift),
         Amazon S3, etc., <b>via Scala</b></li>
