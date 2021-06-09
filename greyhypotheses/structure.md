@@ -29,11 +29,24 @@ The groups
   </tr>
 
   <tr>
+    <td><a href="https://github.com/miscellane" target="\_blank">miscellane</a></td>
+    <td><a href="https://miscellane.github.io" target="\_blank">miscellane.github.io</a></td>
+    <td>This consists of (a) collections of programs that have been, are, repeatedly used for a variety of data projects, and (b) reference notes & examples.  For example:
+      <ul>
+      <li><a href="https://github.com/miscellane/infrastructure" target="\_blank">Infrastructure</a><br>Focused on (a) cloud services & platforms, e.g., infrastructure-as-code, data pipeline architecture, etc., and (b) programs that aid the use of Apache Hive, ScalikeJDBC, Apache Spark, Amazon S3, etc., <b>via Scala</b></li>
+      <li><a href="https://miscellane.github.io/miscellane/tableau/tableau-web-data-connector.html#tableau-web-data-connector" target="\_blank">Tableau Web Data Connectors</a></li>      
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
     <td><a href="https://github.com/briefings" target="\_blank">briefings</a></td>
     <td><a href="https://briefings.github.io" target="\_blank">briefings.github.io</a></td>
     <td>Is focused on brief explorations, analysis, modelling, and features engineering.  Examples:
-      <ul><li><a href="https://briefings.github.io/briefings/sars" target="\_blank">SARS-CoV-2 Trends & Metrics</a><br>An investigation of measures, metrics.</li>
-          <li><a href="https://briefings.github.io/briefings/spark-dataset-and-spark-sql" target="\_blank">Spark Dataset & Spark SQL</a><br>Parallel examples.</li></ul>
+      <ul>
+      <li><a href="https://briefings.github.io/briefings/spark-dataset-and-spark-sql" target="\_blank">Spark Dataset & Spark SQL</a><br>Parallel examples.</li>
+      <li><a href="https://briefings.github.io/briefings/sars" target="\_blank">SARS-CoV-2 Trends & Metrics</a><br>An investigation of measures, metrics.</li>
+      </ul>
     </td>
   </tr>
 
@@ -54,18 +67,7 @@ The groups
     <td>Focused on deep neural networks via TensorFlow, for example, <a href="https://github.com/discourses/derma" target="\_blank">classification of dermatoscopic images</a> (and focused on complementary processes, e.g., <a href="https://github.com/discourses/augmentation" target="\_blank">image augmentation</a>).</td>
   </tr>
 
-  <tr>
-    <td><a href="https://github.com/miscellane" target="\_blank">miscellane</a></td>
-    <td><a href="https://miscellane.github.io" target="\_blank">miscellane.github.io</a></td>
-    <td>A collection of programs that have been, are, repeatedly used for a variety of data projects.  Examples:
-      <ul>
-      <li><a href="https://miscellane.github.io/miscellane/tableau/tableau-web-data-connector.html#tableau-web-data-connector" target="\_blank">Tableau Web Data Connectors</a></li>
-      <li><a href="https://github.com/miscellane/infrastructure" target="\_blank">Aiding</a> <b>interactions</b> with
-        Hive, ScalikeJDBC & Databases (Azure SQL, Amazon Redshift), Apache Spark & Databases (Azure SQL, Amazon Redshift),
-        Amazon S3, etc., <b>via Scala</b></li>
-      </ul>
-    </td>
-  </tr>
+
 
 </table>
 
