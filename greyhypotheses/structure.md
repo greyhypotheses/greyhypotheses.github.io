@@ -19,7 +19,7 @@ The groups
 <table>
 
   <tr>
-      <th style="width:13%;text-align: left;">group</th><th style="width:13%;text-align: left;">pages</th><th style="text-align: left;">comment</th>
+      <th style="width:13%;text-align: left;">The GitHub Organizations</th><th style="width:13%;text-align: left;">Optional Pages</th><th style="text-align: left;">Comment</th>
   </tr>
 
   <tr>
