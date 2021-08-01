@@ -12,7 +12,7 @@ permalink: /
 greyhypotheses
 {: .fs-6 .fw-300 }
 
-
+<br>
 
 The <a href="https://github.com/greyhypotheses" target="\_blank">repositories</a> of greyhypotheses are grouped by GitHub Organization.  The [Content](greyhypotheses/content.md) section outlines a few repositories by GitHub Organization; all repositories are outlined within <a href="https://github.com/greyhypotheses" target="\_blank">GitHub</a>.
 
