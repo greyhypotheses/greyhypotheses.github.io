@@ -24,7 +24,7 @@ The groups
 
   <tr>
     <td><a href="https://github.com/vetiveria" target="\_blank">vetiveria</a></td>
-    <td><a href="https://vetiveria.github.io" target="\_blank">vetiveria.github.io</a></td>
+    <td></td>
     <td>Modelling and analysis of toxic releases.</td>
   </tr>
 
