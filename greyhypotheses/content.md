@@ -11,7 +11,7 @@ custom_js:
 # Structure
 {: .fs-9 }
 
-{: .fs-6 .fw-300 }
+<!--{: .fs-6 .fw-300 }-->
 
 An outline of a selection of items by GitHub Organization.
 
