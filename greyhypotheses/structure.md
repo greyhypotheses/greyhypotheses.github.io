@@ -30,7 +30,7 @@ The groups
 
   <tr>
     <td><a href="https://github.com/miscellane" target="\_blank">miscellane</a></td>
-    <td><a href="https://miscellane.github.io" target="\_blank">miscellane.github.io</a></td>
+    <td></td>
     <td>This consists of (a) collections of programs that have been, are, repeatedly used for a variety of data projects, and (b) reference notes & examples.  For example:
       <ul>
       <li><a href="https://github.com/miscellane/infrastructure" target="\_blank">Infrastructure</a><br>Focused on (a) cloud services & platforms, e.g., infrastructure-as-code, data pipeline architecture, etc., and (b) programs that aid the use of Apache Hive, ScalikeJDBC, Apache Spark, Amazon S3, etc., <b>via Scala</b></li>
