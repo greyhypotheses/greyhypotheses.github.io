@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Structure
+title: Content
 nav_order: 2
 custom_css:
 - lists
@@ -11,10 +11,11 @@ custom_js:
 # Structure
 {: .fs-9 }
 
-The groups
 {: .fs-6 .fw-300 }
 
 <br>
+
+An outline of a selection of items by GitHub Organization.
 
 <table>
 
