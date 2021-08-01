@@ -14,6 +14,6 @@ A brief introduction to the repositories of greyhypotheses
 
 <br>
 
-The <a href="https://github.com/greyhypotheses" target="\_blank">repositories</a> of greyhypotheses are grouped into GitHub organisations.  The [Structure](greyhypotheses/structure.md) section outlines these organisations.  All repositories are outlined within <a href="https://github.com/greyhypotheses" target="\_blank">GitHub</a>.
+The <a href="https://github.com/greyhypotheses" target="\_blank">repositories</a> of greyhypotheses are grouped by GitHub Organization.  The [Content](greyhypotheses/content.md) section outlines a few repositories by GitHub Organization; all repositories are outlined within <a href="https://github.com/greyhypotheses" target="\_blank">GitHub</a>.
 
-**Note**: Almost all the projects I have been involved in are private organisation/institution projects, hence the projects can neither be detailed nor shared.
+**Note**: Almost all the projects I have been involved in are private organisation/institution projects, hence most projects can neither be detailed nor shared.
