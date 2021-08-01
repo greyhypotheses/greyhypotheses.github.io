@@ -13,9 +13,9 @@ custom_js:
 
 {: .fs-6 .fw-300 }
 
-<br>
-
 An outline of a selection of items by GitHub Organization.
+
+<br>
 
 <table>
 
