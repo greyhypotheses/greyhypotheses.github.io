@@ -8,7 +8,7 @@ custom_js:
 - latex
 ---
 
-# Structure
+# Content
 {: .fs-9 }
 
 <!--{: .fs-6 .fw-300 }-->
