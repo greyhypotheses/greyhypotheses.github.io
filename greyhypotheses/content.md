@@ -32,23 +32,6 @@ An outline of a selection of items by GitHub Organization.
   </tr>
 
   <tr>
-    <td><a href="https://github.com/vetiveria" target="\_blank">vetiveria</a></td>
-    <td></td>
-    <td>Modelling and analysis of toxic releases.<br></td>
-  </tr>
-
-  <tr>
-    <td><a href="https://github.com/miscellane" target="\_blank">miscellane</a></td>
-    <td></td>
-    <td>This consists of (a) collections of programs that have been, are, repeatedly used for a variety of data projects, and (b) reference notes & examples.  For example:
-      <ul>
-      <li><a href="https://github.com/miscellane/infrastructure" target="\_blank">Infrastructure</a><br>Focused on (a) cloud services & platforms, e.g., infrastructure-as-code, data pipeline architecture, etc., and (b) programs that aid the use of Apache Hive, ScalikeJDBC, Apache Spark, Amazon S3, etc., <b>via Scala</b></li>
-      <li><a href="https://miscellane.github.io/miscellane/tableau/tableau-web-data-connector.html#tableau-web-data-connector" target="\_blank">Tableau Web Data Connectors</a></li>      
-      </ul>
-    </td>
-  </tr>
-
-  <tr>
     <td><a href="https://github.com/briefings" target="\_blank">briefings</a></td>
     <td><a href="https://briefings.github.io" target="\_blank">briefings.github.io</a></td>
     <td>Is focused on brief explorations, analysis, modelling, and features engineering.  Examples:
@@ -76,7 +59,22 @@ An outline of a selection of items by GitHub Organization.
     <td>Focused on deep neural networks via TensorFlow, for example, <a href="https://github.com/discourses/derma" target="\_blank">classification of dermatoscopic images</a> (and focused on complementary processes, e.g., <a href="https://github.com/discourses/augmentation" target="\_blank">image augmentation</a>).</td>
   </tr>
 
+  <tr>
+    <td><a href="https://github.com/vetiveria" target="\_blank">vetiveria</a></td>
+    <td></td>
+    <td>Modelling and analysis of toxic releases.<br></td>
+  </tr>
 
+  <tr>
+    <td><a href="https://github.com/miscellane" target="\_blank">miscellane</a></td>
+    <td></td>
+    <td>This consists of (a) collections of programs that have been, are, repeatedly used for a variety of data projects, and (b) reference notes & examples.  For example:
+      <ul>
+      <li><a href="https://github.com/miscellane/infrastructure" target="\_blank">Infrastructure</a><br>Focused on (a) cloud services & platforms, e.g., infrastructure-as-code, data pipeline architecture, etc., and (b) programs that aid the use of Apache Hive, ScalikeJDBC, Apache Spark, Amazon S3, etc., <b>via Scala</b></li>
+      <li><a href="https://miscellane.github.io/miscellane/tableau/tableau-web-data-connector.html#tableau-web-data-connector" target="\_blank">Tableau Web Data Connectors</a></li>      
+      </ul>
+    </td>
+  </tr>
 
 </table>
 
