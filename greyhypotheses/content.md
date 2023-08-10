@@ -25,6 +25,13 @@ An outline of a selection of items by GitHub Organization.
   </tr>
 
   <tr>
+    <td><a href="https://github.com/helminthiases" target="\_blank">helminthiases</a></td>
+    <td><a href="https://helminthiases.github.io" target="\_blank">Introductory Notes</a><br>
+        <a href="https://helminthiases.github.io/flow#flow-diagram">Project Flow Diagram</a></td>
+    <td>This 2022 project investigates environmental, geographic, risk factors of helminthiases prevalence.  Helminthiases is a neglected, but prevalent, tropical disease.</td>
+  </tr>
+
+  <tr>
     <td><a href="https://github.com/vetiveria" target="\_blank">vetiveria</a></td>
     <td></td>
     <td>Modelling and analysis of toxic releases.</td>
