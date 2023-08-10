@@ -29,7 +29,7 @@ An outline of a selection of items by GitHub Organization.
     <td><a href="https://helminthiases.github.io" target="\_blank">Introductory Notes</a><br>
         <a href="https://helminthiases.github.io/flow#flow-diagram">Project Flow Diagram</a></td>
     <td>This 2022 project investigates environmental risk factors of helminthiases prevalence.  Helminthiases is a neglected, but prevalent, tropical disease. <br><br>All the repositories of the Helminthiases Organization are associated with the project.  The <a href="https://helminthiases.github.io/flow#flow-diagram">flow diagram</a> illustrates the project's data sources,  and the relationships between the repositories.</td>
-    <br/>
+    
   </tr>
 
   <tr>
@@ -41,7 +41,7 @@ An outline of a selection of items by GitHub Organization.
       <li><a href="https://briefings.github.io/briefings/sars" target="\_blank">SARS-CoV-2 Trends & Metrics</a><br>An investigation of measures, metrics.</li>
       </ul>
     </td>
-    <br/>
+    
   </tr>
 
   <tr>
@@ -53,7 +53,7 @@ An outline of a selection of items by GitHub Organization.
         <li><a href="https://github.com/premodelling/automata" target="\_blank">automata</a>:  A fun project about <a href="https://files.wolframcdn.com/pub/www.stephenwolfram.com/pdf/statistical-mechanics-cellular-automata.pdf">cellular automata</a>; wonderfully transferable to a variety of problems.</li>
       </ul>    
     </td>
-    <br/>
+    
   </tr>
 
   <tr>
@@ -65,7 +65,7 @@ An outline of a selection of items by GitHub Organization.
         <li><a href="https://github.com/plausibilities/sars" target="\_blank">plausibilities/sars</a><br/>Forecasting amidst uncertainty in relation to SARS-CoV-2.</li>
       </ul>
     </td>
-    <br/>
+    
   </tr>
 
   <tr>
@@ -79,7 +79,7 @@ An outline of a selection of items by GitHub Organization.
     <td><a href="https://github.com/vetiveria" target="\_blank">vetiveria</a></td>
     <td></td>
     <td>Modelling and analysis of toxic releases.</td>
-    <br/>
+    
   </tr>
 
   <tr>
@@ -91,7 +91,7 @@ An outline of a selection of items by GitHub Organization.
       <li><a href="https://miscellane.github.io/miscellane/tableau/tableau-web-data-connector.html#tableau-web-data-connector" target="\_blank">Tableau Web Data Connectors</a></li>      
       </ul>
     </td>
-    <br/>
+    
   </tr>
 
 </table>
