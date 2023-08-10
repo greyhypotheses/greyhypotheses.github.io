@@ -47,10 +47,11 @@ An outline of a selection of items by GitHub Organization.
     <td></td>
     <td>This hub hosts a number of 2021/2022 Health Data Science Master repositories: public & private. Of probable interest:
     <ul>
-        <li><a href="https://github.com/premodelling/infections#scc460-group-project" target="\_blank">infections</a>This group project explores the forecasting of hospital admissions during a pandemic via <a href="https://colab.research.google.com/github/premodelling/infections/blob/develop/modelling.ipynb" target="_blank">Convolutional Neural Networks, Long Short-Term Memory, and Gated Recurrent Unit</a></li>
-        <li><a href="https://github.com/premodelling/automata" target="\_blank">automata</a>A fun project about <a href="https://files.wolframcdn.com/pub/www.stephenwolfram.com/pdf/statistical-mechanics-cellular-automata.pdf">cellular automata</a>; wonderfully transferable to a variety of problems.</li>
+        <li><a href="https://github.com/premodelling/infections#scc460-group-project" target="\_blank">infections</a>:  This group project explores the forecasting of hospital admissions during a pandemic via <a href="https://colab.research.google.com/github/premodelling/infections/blob/develop/modelling.ipynb" target="_blank">Convolutional Neural Networks, Long Short-Term Memory, and Gated Recurrent Unit</a></li>
+        <li><a href="https://github.com/premodelling/automata" target="\_blank">automata</a>:  A fun project about <a href="https://files.wolframcdn.com/pub/www.stephenwolfram.com/pdf/statistical-mechanics-cellular-automata.pdf">cellular automata</a>; wonderfully transferable to a variety of problems.</li>
       </ul>    
     </td>
+    <br/>
   </tr>
 
   <tr>
