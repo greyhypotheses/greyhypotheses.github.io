@@ -28,7 +28,7 @@ An outline of a selection of items by GitHub Organization.
     <td><a href="https://github.com/helminthiases" target="\_blank">helminthiases</a></td>
     <td><a href="https://helminthiases.github.io" target="\_blank">Introductory Notes</a><br>
         <a href="https://helminthiases.github.io/flow#flow-diagram">Project Flow Diagram</a></td>
-    <td>This 2022 project investigates environmental, geographic, risk factors of helminthiases prevalence.  Helminthiases is a neglected, but prevalent, tropical disease.</td>
+    <td>This 2022 project investigates environmental risk factors of helminthiases prevalence.  Helminthiases is a neglected, but prevalent, tropical disease. <br><br>All the repositories of the Helminthiases Organization are associated with the project.  The flow diagram illustrates the project's data sources,  and the relationships between the repositories.</td>
   </tr>
 
   <tr>
